@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+
+.btn{
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 120px);
+  text-align: center;
+  cursor:pointer;
+  display:inline-block;
+  padding: 15px 0 12px 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  width: 240px;
+  background: #c86262;
+  border-radius: 4px;
+  color: #fff;
+  text-transform:uppercase;
+  line-height:20px;
+  transition: .25s ease;
+  font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.btn:after{
+  content:'⏯';
+  margin-left:8px;
+}
+.btn .playing:after{
+    padding:3px;
+    content:'⏸';
+}
