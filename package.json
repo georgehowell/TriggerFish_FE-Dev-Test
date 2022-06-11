@@ -24,8 +24,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "start_url": "https://georgehowell.com.au/test001/desktop/index.html",
-  "homepage": "https://georgehowell.com.au/test001/desktop/index.html",
+  "start_url": ".",
+  "homepage": ".",
   "browserslist": [
     ">0.2%",
     "not dead",
