@@ -1,0 +1,88 @@
+{
+    "short_name": "Tony & Guy",
+    "name": "London Fashion Week 2017",
+    "assets": [
+      {
+        "src": "/audio/ambient01.mp3",
+        "type": "audio/mp3",
+        "sizes": "44.1 kHz",
+        "memory": "217Kb"
+      },
+      {
+        "src": "/gltf/cube_head-shot-1.glb",
+        "type": "GL Transmission Format Binary file",
+        "sizes": "n/a",
+        "memory": "472Kb"
+      },
+      {
+        "src": "/gltf/cube_head-shot-2.glb",
+        "type": "GL Transmission Format Binary file",
+        "sizes": "n/a",
+        "memory": "78Kb"
+      },
+      {
+        "src": "/gltf/dress+hair.glb",
+        "type": "GL Transmission Format Binary file",
+        "sizes": "n/a",
+        "memory": "1.3Mb"
+      },
+      {
+        "src": "/img/catwalk.png",
+        "type": "image/png",
+        "sizes": "4384x3041px",
+        "memory": "6.1Mb"
+      },
+      {
+        "src": "/img/sponsor-logo_wht",
+        "type": "image/png",
+        "sizes": "912x710px",
+        "memory": "68Kb"
+      },
+      {
+        "src": "/img/TonyAndGuy.png",
+        "type": "image/png",
+        "sizes": "2400x581px",
+        "memory": "292Kb"
+      },
+      {
+        "src": "/js/audio.js",
+        "type": "text/javascript",
+        "sizes": "n/a",
+        "memory": "1Kb"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#000000",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000",
+    "shortcuts": [
+      {
+        "name": "George Howell",
+        "short_name": "Geordie",
+        "description": "Front-End Dev Test: TriggerFish",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "/img/favicon.png", "sizes": "192x192px" }]
+      }
+    ],
+    "description": "React-Three/Fibre",
+    "screenshots": [
+      {
+        "src": "/img/screenshot1.png",
+        "type": "image/png",
+        "sizes": "1817x943px"   
+      },
+      {
+        "src": "/images/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "636x1100px"
+      },
+      {
+        "src": "/images/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "636x840px"
+      }
+
+    ]
+  }
+  

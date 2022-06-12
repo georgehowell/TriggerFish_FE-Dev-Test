@@ -9,7 +9,6 @@ import LogoPanel from './components/SponsorLogo'
 import Orbit from './components/Orbit';
 
 import GltfModel from "./components/GltfModel";
-// import Sound from './components/Sound'
 
   function App() {
 
@@ -32,7 +31,6 @@ import GltfModel from "./components/GltfModel";
                       <Background />
                   </Suspense>
                   <Floor position={[-3,-2.5,.5]} />
-                  {/* <Sound /> */}
               </Canvas>
               <div className="distortion"></div>
 
