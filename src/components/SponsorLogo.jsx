@@ -2,7 +2,7 @@ import { useThree, useLoader } from '@react-three/fiber'
 import * as THREE from 'three'
 
 const LogoPanel = props => {
-    const texture3 = useLoader(THREE.TextureLoader, '/img/sponsor-logo_wht.png')
+    const texture3 = useLoader(THREE.TextureLoader, '/img/sponsor-logo_blk.png')
     const { gl } = useThree();
     return (
         <mesh {...props}>

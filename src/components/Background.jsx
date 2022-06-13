@@ -8,7 +8,7 @@ const Background = props => {
 
   const {gl} = useThree();
 
-  const texture = useTexture('/img/catwalk.png')
+  const texture = useTexture('/img/3D_purple.jpg')
   const formatted = useMemo( 
     () => new THREE.WebGLCubeRenderTarget(texture.image.height).fromEquirectangularTexture(gl, texture)
   )
